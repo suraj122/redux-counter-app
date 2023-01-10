@@ -12,3 +12,7 @@ export function reset() {
 export function updateStep(step) {
   return { type: "changeStep", payload: step };
 }
+
+export function updateMax(max) {
+  return { type: "changeMax", payload: max };
+}
